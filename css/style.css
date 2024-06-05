@@ -1,0 +1,185 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #26308C;
+    border-radius: 6px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #6F7DFB;
+}
+
+.HeroSection {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: calc(100vw-6px);
+    height: 100vh;
+    min-height: 600px;
+    background: linear-gradient(#6F7DFB 0%, #26308C 100%);
+    overflow: hidden;
+}
+
+.HeroSection .menuBar {
+    display: flex;
+    width: 80vw;
+    height: 59px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left: 10vw;
+    top: 6vh;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.HeroSection .menuBar nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60vw;
+}
+
+.HeroSection .menuBar nav a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.HeroSection .menuBar nav button {
+    color: white;
+    font-weight: bolder;
+    width: 155px;
+    height: 59px;
+    padding: 16px, 32px, 16px, 32px;
+    border-radius: 24px;
+    background-color: #023047;
+    border-width: 0;
+}
+
+.HeroSection .heroContent {
+    position: relative;
+    top: 20vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+.HeroSection .heroContent .introText {
+    width: 30vw;
+    position: relative;
+    left: 5vw;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    color: white;
+}
+
+.HeroSection .heroContent .introText h1 {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.HeroSection .heroContent .introText p {
+    font-family: sans-serif;
+    line-height: 32px;
+}
+
+.HeroSection .heroContent .introText button {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    width: 183px;
+    height: 59px;
+    border-radius: 24px;
+    background-color: #DA722C;
+    padding: 16px, 32px, 16px, 32px;
+    border-width: 0;
+    color: white;
+}
+
+.HeroSection .heroContent .introImg .rectangles {
+    display: flex;
+    flex-direction: column;
+    gap: 10vw;
+    position: relative;
+    top: 10vh;
+    left: 3vw;
+}
+
+.HeroSection .heroContent .introImg .rectangles .outerRectangle {
+    height: 97px;
+    width: 206px;
+    border-radius: 24px;
+    background: linear-gradient(#6F7DFB 0%, #3B448F 100%);
+    position: relative;
+}
+
+.HeroSection .heroContent .introImg .rectangles .outerRectangle .innerRectangle {
+    height: 90px;
+    width: 206px;
+    border-radius: 24px;
+    background-color: white;
+    position: absolute;
+    left: -7px;
+    top: -1px;
+    text-align: center;
+    color: #023047;
+    font-family: sans-serif;
+}
+
+.HeroSection .heroContent .introImg .rectangles .outerRectangle .innerRectangle .content {
+    padding-top: 10px;
+}
+
+.HeroSection .heroContent .introImg img {
+    height: 80vh;
+    min-height: calc(.8*600px);
+    position: relative;
+}
+
+.HeroSection .heroContent .introImg {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    right: 0;
+    top: 1vh;
+}
+
+.HeroSection .heroContent .introImg .rectangles :last-child {
+    top: 2vh;
+    right: 5vw;
+}
+
+.journey .message {
+    width: 442px;
+    height: 150px;
+    border-radius: 24px;
+    box-shadow: 0px 0px 36px 0 rgba(0, 0, 0, 20);
+}
+
+.journey .message .innerMessage1 {
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 27px;
+    text-align: left;
+    /* height: 52px; */
+    padding: 24px 32px 24px 32px;
+    border-radius: 24px;
+    background: #6F7DFB;
+}

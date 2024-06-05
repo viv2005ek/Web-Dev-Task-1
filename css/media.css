@@ -1,0 +1,29 @@
+@media screen and (max-width:1174px) and (min-width:1014px) {
+    .HeroSection .heroContent .introImg .rectangles {
+        position: relative;
+        top: 30vh;
+    }
+    .HeroSection {
+        height: 105vh;
+        min-height: 700px;
+    }
+}
+
+@media screen and (max-width:1014px) {
+    .HeroSection {
+        height: 100vh;
+        min-height: 1000px;
+        width: 100vw;
+    }
+    .HeroSection .heroContent .introImg {
+        position: relative;
+        left: 10vw;
+    }
+    .HeroSection .heroContent .introText {
+        width: 70vw;
+    }
+    .HeroSection .heroContent .introImg img {
+        height: 50vh;
+        top: 10vh;
+    }
+}
