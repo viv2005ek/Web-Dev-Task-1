@@ -164,14 +164,49 @@ body::-webkit-scrollbar-track {
     right: 5vw;
 }
 
-.journey .message {
-    width: 442px;
-    height: 150px;
-    border-radius: 24px;
-    box-shadow: 0px 0px 36px 0 rgba(0, 0, 0, 20);
+.journey {
+    width: calc(100vw-6px);
+    position: relative;
+    top: 15vh;
+    display: flex;
+    justify-content: space-around;
+    gap: 10vw;
 }
 
-.journey .message .innerMessage1 {
+.journey .TestimonialsLeft {
+    position: relative;
+    left: 10vw;
+}
+
+.journey .TestimonialsLeft .lineContainer {
+    width: 28px;
+    height: 546px;
+    border-radius: 24px;
+    background-color: #023047;
+    z-index: -1;
+}
+
+.journey .TestimonialsLeft .messages {
+    position: relative;
+    z-index: 1;
+    top: -541px;
+    height: 546px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.journey .TestimonialsLeft .messages .message {
+    width: 442px;
+    height: 222px;
+    border-radius: 24px;
+    box-shadow: 0px 0px 36px 0 rgba(0, 0, 0, 20);
+    background-color: white;
+    position: relative;
+    left: -6vw;
+}
+
+.journey .TestimonialsLeft .messages .message .innerMessage1 {
     color: white;
     font-family: sans-serif;
     font-size: 18px;
@@ -182,4 +217,134 @@ body::-webkit-scrollbar-track {
     padding: 24px 32px 24px 32px;
     border-radius: 24px;
     background: #6F7DFB;
+    /* padding: 0px, 32px, 0px, 32px; */
+}
+
+.journey .TestimonialsLeft .messages .message .messager {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 106px;
+    /* padding: 0px, 32px, 0px, 32px; */
+}
+
+.journey .TestimonialsLeft .messages .message .written h1 {
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 28.8px;
+    text-align: left;
+}
+
+.journey .TestimonialsLeft .messages .message .written p {
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-align: left;
+}
+
+.journey .TestimonialsLeft .messages .message .messager .photo {
+    width: 120px;
+    height: 120px;
+    background-image: url(../images/messagerGirl.jpeg);
+    border-radius: 50%;
+    position: relative;
+    top: -10px;
+    background-position: center;
+    background-size: cover;
+}
+
+.journey .TestimonialsLeft .messages .message2 {
+    width: 442px;
+    height: 195px;
+    border-radius: 24px;
+    box-shadow: 0px 0px 36px 0 rgba(0, 0, 0, 20);
+    background-color: white;
+    position: relative;
+    left: -3vw;
+}
+
+.journey .TestimonialsLeft .messages .message2 .innerMessage2 {
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 27px;
+    text-align: left;
+    /* height: 52px; */
+    padding: 24px 32px 24px 32px;
+    border-radius: 24px;
+    background: #DA722C;
+    /* padding: 0px, 32px, 0px, 32px; */
+}
+
+.journey .TestimonialsLeft .messages .message2 .messager2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 106px;
+    /* padding: 0px, 32px, 0px, 32px; */
+}
+
+.journey .TestimonialsLeft .messages .message2 .written2 h1 {
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 28.8px;
+    text-align: left;
+}
+
+.journey .TestimonialsLeft .messages .message2 .written2 p {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-align: left;
+}
+
+.journey .TestimonialsLeft .messages .message2 .messager2 .photo2 {
+    width: 120px;
+    height: 120px;
+    background-image: url(../images/messagerBoy.jpeg);
+    border-radius: 50%;
+    position: relative;
+    top: -10px;
+    background-position: center;
+    background-size: cover;
+}
+
+.journey .TestimonialsRight {
+    width: 559px;
+    height: 377px;
+}
+
+.journey .TestimonialsRight h1 {
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 72px;
+    text-align: left;
+    color: #023047;
+}
+
+.journey .TestimonialsRight p {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: #023047;
+}
+
+.journey .TestimonialsRight button {
+    padding: 16px 32px 16px 32px;
+    border-radius: 24px;
+    background-color: #DA722C;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+    color: white;
 }
