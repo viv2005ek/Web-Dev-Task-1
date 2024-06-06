@@ -9,14 +9,6 @@
     }
 }
 
-@media (max-width:894px) {
-    footer {
-        width: 100vw;
-        position: relative;
-        top: 300px;
-    }
-}
-
 @media screen and (max-width:1024px) {
     .HeroSection {
         height: 100vh;
@@ -75,5 +67,13 @@
     }
     footer .footerContainer .contact {
         width: 100%;
+    }
+}
+
+@media (max-width:894px) {
+    footer {
+        position: relative;
+        top: 300px;
+        width: 100vw;
     }
 }
