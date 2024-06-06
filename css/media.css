@@ -1,4 +1,4 @@
-@media screen and (max-width:1174px) and (min-width:1014px) {
+@media screen and (max-width:1174px) and (min-width:1024px) {
     .HeroSection .heroContent .introImg .rectangles {
         position: relative;
         top: 30vh;
@@ -9,7 +9,15 @@
     }
 }
 
-@media screen and (max-width:1014px) {
+@media (max-width:894px) {
+    footer {
+        width: 100vw;
+        position: relative;
+        top: 300px;
+    }
+}
+
+@media screen and (max-width:1024px) {
     .HeroSection {
         height: 100vh;
         min-height: 1000px;
@@ -25,5 +33,47 @@
     .HeroSection .heroContent .introImg img {
         height: 50vh;
         top: 10vh;
+    }
+    .journey {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        width: 100vw;
+        overflow-x: hidden;
+        position: relative;
+        top: 3vh;
+    }
+    .journey .TestimonialsLeft {
+        width: 100%;
+        position: relative;
+        left: 20vw;
+        height: 760px;
+    }
+    .journey .TestimonialsRight {
+        width: 50vw;
+        height: 450px;
+    }
+    .courses {
+        position: relative;
+        top: -100px;
+    }
+    .courses button {
+        position: relative;
+        left: 70vw;
+    }
+    .download {
+        position: relative;
+        top: 0;
+        width: 100vw;
+    }
+    .download {
+        position: relative;
+    }
+    footer {
+        width: 100vw;
+        position: relative;
+        top: 150px;
+    }
+    footer .footerContainer .contact {
+        width: 100%;
     }
 }
