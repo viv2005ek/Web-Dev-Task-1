@@ -13,6 +13,58 @@ body::-webkit-scrollbar-track {
     background-color: #6F7DFB;
 }
 
+.navigationMenu {
+    height: 100vh;
+    width: 100vw;
+    background: #070917;
+    position: fixed;
+    z-index: 3;
+    visibility: hidden;
+}
+
+.navigationMenu p {
+    color: white;
+    display: inline;
+    position: relative;
+    top: 20vh;
+    left: 70vw;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.navigationMenu .navIndex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+    top: 35vh;
+}
+
+.navigationMenu .navIndex a {
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    color: white;
+}
+
+.navigationMenu .navIndex button {
+    padding: 12px 32px 12px 32px;
+    border-radius: 24px;
+    background: #DA722C;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: white;
+}
+
+.visible {
+    visibility: visible;
+}
+
 .HeroSection {
     position: relative;
     top: 0;
@@ -52,6 +104,11 @@ body::-webkit-scrollbar-track {
     justify-content: space-around;
     align-items: center;
     width: 60vw;
+}
+
+.HeroSection .menuBar nav .menuBarToggle {
+    visibility: hidden;
+    cursor: pointer;
 }
 
 .HeroSection .menuBar nav a {
@@ -456,7 +513,6 @@ body::-webkit-scrollbar-track {
     align-items: center;
     margin-right: 20px;
     margin-left: 20px;
-    margin-top: 25px;
     color: #023047;
 }
 
@@ -749,5 +805,3 @@ footer p {
     left: 10vw;
     top: 5vh
 }
-
-@media (max-width:1024px) {}
