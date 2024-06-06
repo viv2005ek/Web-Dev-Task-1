@@ -84,3 +84,44 @@
         visibility: hidden;
     }
 }
+
+@media (max-width:767px) {
+    .journey .TestimonialsLeft .messages .message {
+        left: -80px;
+    }
+    .journey .TestimonialsLeft .messages .message2 {
+        left: -80px;
+    }
+    .journey .TestimonialsRight {
+        width: 90vw;
+    }
+    .courses .course .course1 {
+        width: 300px;
+    }
+    .courses .course .course1 .coursePhoto {
+        width: 290px;
+    }
+    .courses .course .course1 .courseLine {
+        width: 290px;
+    }
+    .courses .course .course2 {
+        width: 300px;
+    }
+    .courses .course .course2 .coursePhoto2 {
+        width: 290px;
+    }
+    .courses .course .course2 .courseLine2 {
+        width: 290px;
+    }
+    .courses .course .course2 .titleTime2 .title2 {
+        position: relative;
+        top: 0;
+    }
+    .courses button {
+        position: relative;
+        left: 40vw;
+    }
+}
+
+
+/* vivek */

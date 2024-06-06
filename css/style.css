@@ -298,7 +298,7 @@ body::-webkit-scrollbar-track {
 }
 
 .journey .TestimonialsLeft .messages .message .written p {
-    font-family: Raleway;
+    font-family: sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 21.6px;
@@ -805,3 +805,6 @@ footer p {
     left: 10vw;
     top: 5vh
 }
+
+
+/* vivek */
